@@ -1,0 +1,6 @@
+{
+    "require": {
+        "cs278/bank-modulus": "^1.11",
+        "monolog/monolog": "^2.0"
+    }
+}
