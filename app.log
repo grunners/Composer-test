@@ -1,0 +1,16 @@
+[2020-05-27T18:09:41.203822+02:00] Bank-Modulus.INFO: This is a log! ^_^  [] []
+[2020-05-27T18:09:55.477036+02:00] Bank-Modulus.INFO: This is a log! ^_^  [] []
+[2020-05-27T18:11:09.647420+02:00] Bank-Modulus.INFO: Bank details checked:  [] []
+[2020-05-27T18:11:18.115745+02:00] Bank-Modulus.INFO: Bank details checked:  [] []
+[2020-05-27T18:12:04.852468+02:00] Bank-Modulus.INFO: Bank details checked: 774814 24782346 [] []
+[2020-05-27T18:14:37.058236+02:00] Bank-Modulus.INFO: General exception: Value must contain 6 digits [] []
+[2020-05-27T18:14:50.911439+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] []
+[2020-05-27T18:17:21.729518+02:00] Bank-Modulus.WARNING: Invalid Bank Details: 774774 24782346 [] []
+[2020-05-27T18:22:28.065480+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] []
+[2020-05-27T18:22:35.404288+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] []
+[2020-05-27T18:23:13.914811+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] []
+[2020-05-27T18:23:28.189745+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] []
+[2020-05-27T18:24:12.837814+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] []
+[2020-05-27T18:25:39.756775+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] {"data":""}
+[2020-05-27T18:26:09.732220+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] {"data":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-27T18:26:26.787079+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
