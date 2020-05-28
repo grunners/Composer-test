@@ -1,1 +1,9 @@
 [2020-05-27T18:27:04.163634+02:00] Bank-Modulus.INFO: Invalid Bank Details: 774774 24782346 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:30:44.877368+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 24782345 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:30:46.632363+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 24782345 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:31:22.699028+01:00] Bank-Modulus.INFO: General exception: Account number must contain at least 6 digits [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:33:34.571733+01:00] Bank-Modulus.INFO: General exception: Value must contain 6 digits [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:33:36.442980+01:00] Bank-Modulus.INFO: General exception: Value must contain 6 digits [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:33:51.297028+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 02478234 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:34:22.737917+01:00] Bank-Modulus.INFO: General exception: Value must contain 6 digits [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:34:40.899079+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 24782345 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
