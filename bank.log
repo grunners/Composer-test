@@ -14,3 +14,6 @@
 [2020-05-28T16:57:24.025562+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 00247823 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
 [2020-05-28T16:57:25.345178+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 00247823 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
 [2020-05-29T12:08:13.711751+01:00] Bank-Modulus.INFO: Invalid Bank Details: 203342 00380498 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-06-01T09:49:36.961893+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 24782345 [] {"session_id":"i76n8opkrss4poml85uuv6p6se"}
+[2020-06-01T09:49:56.483684+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 24782345 [] {"session_id":"i76n8opkrss4poml85uuv6p6se"}
+[2020-06-01T10:11:09.513350+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 24782345 [] {"session_id":"i76n8opkrss4poml85uuv6p6se"}

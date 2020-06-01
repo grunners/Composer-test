@@ -34,6 +34,7 @@ function modulusCheck() {
         $modulus = $modulus->check($sortcode, $accountnumber);
         if($modulus) {
             $message = "Valid" . "<br><br>";
+            $logger->info('Valid: ' . $sortcode . " " . $accountnumber);
         } else {
             $message = "INVALID" . "<br><br>";
             $logger->info('Invalid Bank Details: ' . $sortcode . " " . $accountnumber);
