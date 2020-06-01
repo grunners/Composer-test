@@ -40,13 +40,13 @@ function modulusCheck() {
         };
     } catch (SortCodeInvalidException $e) {
         $message = "Sort code exception";
-        $logger->info('Sort code exception: ' . $sortcode);
+        $logger->info($message.": ".$sortcode);
     } catch (AccountNumberInvalidException $e) {
         $message = "Account number exception";
-        $logger->info('Account number exception: ' . $accountnumber);
+        $logger->info($message.": ".$accountnumber);
     } catch (Exception $e ) {
         $message = "Other exception<p>" . $e->getMessage();
-        $logger->info('General exception: ' . $e->getMessage());
+        $logger->info($message.": ".$e->getMessage());
     }
 
     return $message;

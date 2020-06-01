@@ -7,3 +7,10 @@
 [2020-05-28T10:33:51.297028+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 02478234 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
 [2020-05-28T10:34:22.737917+01:00] Bank-Modulus.INFO: General exception: Value must contain 6 digits [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
 [2020-05-28T10:34:40.899079+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 24782345 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:44:43.500096+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 02478234 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:44:55.389256+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 00247823 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T10:44:57.243893+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 00247823 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T16:57:23.922642+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 00247823 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T16:57:24.025562+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 00247823 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-28T16:57:25.345178+01:00] Bank-Modulus.INFO: Invalid Bank Details: 774814 00247823 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
+[2020-05-29T12:08:13.711751+01:00] Bank-Modulus.INFO: Invalid Bank Details: 203342 00380498 [] {"session_id":"ad5re0kgm0t4khntsfbjuhv2qu"}
