@@ -33,20 +33,20 @@ function modulusCheck() {
         $modulus->normalize($sortcode, $accountnumber);
         $modulus = $modulus->check($sortcode, $accountnumber);
         if($modulus) {
-            $message = "Valid" . "<br><br>";
+            $message = "Valid";
             //$logger->info('Valid: ' . $sortcode . " " . $accountnumber);
         } else {
-            $message = "INVALID" . "<br><br>";
+            $message = "Invalid sort code or account number";
             // $logger->info('Invalid Bank Details: ' . $sortcode . " " . $accountnumber);
         };
     } catch (SortCodeInvalidException $e) {
-        $message = "Sort code exception";
+        $message = "Sort code is invalid (probably over 6 digits)";
         // $logger->info($message.": ".$sortcode);
     } catch (AccountNumberInvalidException $e) {
-        $message = "Account number exception";
+        $message = "Account number is invalid";
         // $logger->info($message.": ".$accountnumber);
     } catch (Exception $e ) {
-        $message = "Other exception<p>" . $e->getMessage();
+        $message = "Invalid sort code or account number";// . $e->getMessage();
         // $logger->info($message.": ".$e->getMessage());
     }
 
