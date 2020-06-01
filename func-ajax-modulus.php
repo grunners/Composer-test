@@ -13,17 +13,17 @@ use Cs278\BankModulus\Exception\AccountNumberInvalidException;
 use Cs278\BankModulus\Exception\SortCodeInvalidException;
 
 //monolog
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
+// use Monolog\Logger;
+// use Monolog\Handler\StreamHandler;
 
 
 function modulusCheck() {
-    $logger = new Logger('Bank-Modulus');
-    $logger->pushHandler(new StreamHandler(__DIR__ .'/bank.log', Logger::INFO));
-    $logger->pushProcessor (function ($entry) {
-        $entry['extra']['session_id'] = session_id();
-        return $entry;
-    });
+    // $logger = new Logger('Bank-Modulus');
+    // $logger->pushHandler(new StreamHandler(__DIR__ .'/bank.log', Logger::INFO));
+    // $logger->pushProcessor (function ($entry) {
+    //     $entry['extra']['session_id'] = session_id();
+    //     return $entry;
+    // });
     $sortcode = $_POST['SortCode'];
     $accountnumber = $_POST['AccNum'];
 
@@ -34,20 +34,20 @@ function modulusCheck() {
         $modulus = $modulus->check($sortcode, $accountnumber);
         if($modulus) {
             $message = "Valid" . "<br><br>";
-            $logger->info('Valid: ' . $sortcode . " " . $accountnumber);
+            //$logger->info('Valid: ' . $sortcode . " " . $accountnumber);
         } else {
             $message = "INVALID" . "<br><br>";
-            $logger->info('Invalid Bank Details: ' . $sortcode . " " . $accountnumber);
+            // $logger->info('Invalid Bank Details: ' . $sortcode . " " . $accountnumber);
         };
     } catch (SortCodeInvalidException $e) {
         $message = "Sort code exception";
-        $logger->info($message.": ".$sortcode);
+        // $logger->info($message.": ".$sortcode);
     } catch (AccountNumberInvalidException $e) {
         $message = "Account number exception";
-        $logger->info($message.": ".$accountnumber);
+        // $logger->info($message.": ".$accountnumber);
     } catch (Exception $e ) {
         $message = "Other exception<p>" . $e->getMessage();
-        $logger->info($message.": ".$e->getMessage());
+        // $logger->info($message.": ".$e->getMessage());
     }
 
     return $message;
